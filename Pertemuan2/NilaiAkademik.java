@@ -31,9 +31,9 @@ public class NilaiAkademik {
     }
 
     void hitungNilai() {
-        pNilaiTugas = 0.2;
+        pNilaiTugas = 0.3;
         pNilaiUTS = 0.35;
-        pNilaiUAS = 0.45;
+        pNilaiUAS = 0.35;
         nAkhir = (nTugas * pNilaiTugas) + (nUTS * pNilaiUTS) + (nUAS * pNilaiUAS);
     }
 
@@ -41,9 +41,9 @@ public class NilaiAkademik {
         System.out.println("==================================");
         System.out.println("Nama        : " + Nama);
         System.out.println("NIM         : " + NIM);
-        System.out.println("Nilai Tugas : " + nTugas);
-        System.out.println("Nilai UTS   : " + nUTS);
-        System.out.println("Nilai UAS   : " + nUAS);
+        System.out.println("Nilai Tugas : " + nTugas + " 30%     : " + (nTugas * pNilaiTugas));
+        System.out.println("Nilai UTS   : " + nUTS + " 35%     : " + (nUTS * pNilaiUTS));
+        System.out.println("Nilai UAS   : " + nUAS + " 35%     : " + (nUAS * pNilaiUAS));
         System.out.println("Nilai Akhir : " + nAkhir);
         System.out.println("==================================");
     }
