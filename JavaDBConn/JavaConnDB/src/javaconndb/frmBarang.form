@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="678" max="32767" attributes="0"/>
+                  <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButtonTambah" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButtonKoreksi" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButtonHapus" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButtonBatal" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButtonKeluar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                      <Component id="JButtonSimpan" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbKodeBrg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbNamaBrg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbSatuan" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="lbHarga" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="lbStok" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="lbStokMin" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelHargaJual" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelHargaBeli" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtHargaBeli" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <Component id="txtHargaJual" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <Component id="txtHarga" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <Component id="jComboBox1" min="-2" pref="61" max="-2" attributes="0"/>
+                                  <Component id="txtNamaBrg" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <Component id="txtKodeBrg" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <Component id="txtStok" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <Component id="txtStokMin" min="-2" pref="116" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbKodeBrg" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtKodeBrg" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbNamaBrg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNamaBrg" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbSatuan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbHarga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHarga" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbStok" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtStok" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtStokMin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbStokMin" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelHargaJual" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHargaJual" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelHargaBeli" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHargaBeli" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="94" max="-2" attributes="0"/>
+              <EmptySpace pref="8" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="JButtonSimpan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonTambah" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonKoreksi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonHapus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonBatal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonKeluar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbKodeBrg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kode Barang"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbNamaBrg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nama Barang"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbSatuan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Satuan"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbHarga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Harga"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbStok">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stok"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbStokMin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stok Minimal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtKodeBrg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="00001"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtKodeBrgActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNamaBrg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Durian Montong"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNamaBrgActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Biji"/>
+            <StringItem index="1" value="Kilogram"/>
+            <StringItem index="2" value="Buah"/>
+            <StringItem index="3" value="Pack"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtStok">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtStokActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHarga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10000.0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtHargaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtStokMin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtStokMinActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblBrg">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true"/>
+              </Border>
+            </Property>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="8" rowCount="4">
+                <Column editable="true" title="Kode" type="java.lang.Object"/>
+                <Column editable="true" title="Nama Barang" type="java.lang.Object"/>
+                <Column editable="true" title="Satuan" type="java.lang.Object"/>
+                <Column editable="true" title="Harga" type="java.lang.Object"/>
+                <Column editable="true" title="Stok" type="java.lang.Object"/>
+                <Column editable="true" title="Stok Min" type="java.lang.Object"/>
+                <Column editable="true" title="Harga Jual" type="java.lang.Object"/>
+                <Column editable="true" title="Harga Beli" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblBrgMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButtonTambah">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tambah"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonTambahActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="JButtonSimpan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Simpan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JButtonSimpanActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonKoreksi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Koreksi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonKoreksiActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonHapus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hapus"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonHapusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonBatal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Batal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonBatalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonKeluar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Keluar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonKeluarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelHargaJual">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Harga Jual"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelHargaBeli">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Harga Beli"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHargaJual">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtHargaJualActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHargaBeli">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtHargaBeliActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="36" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FORM DATA BARANG"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
