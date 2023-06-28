@@ -282,6 +282,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="440000"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTotActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="cmdHapusItem">
       <Properties>
@@ -440,6 +443,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="00001"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtIdActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

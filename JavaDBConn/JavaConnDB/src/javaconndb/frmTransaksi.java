@@ -56,7 +56,7 @@ public class frmTransaksi extends javax.swing.JFrame {
                 System.out.println("Error : "+e);
             }
         }
-        private void aktif(boolean x)
+    private void aktif(boolean x)
 {
     txtNoJual.setEnabled(x);
     txtNoJual.setEditable(false);
@@ -459,6 +459,11 @@ private void setTombol(boolean t)
         });
 
         txtTot.setText("440000");
+        txtTot.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtTotActionPerformed(evt);
+            }
+        });
 
         cmdHapusItem.setText("Hapus Barang");
         cmdHapusItem.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -550,6 +555,11 @@ private void setTombol(boolean t)
         });
 
         txtId.setText("00001");
+        txtId.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtIdActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -747,7 +757,10 @@ private void setTombol(boolean t)
       }
 
       ctk=ctk+"\n"+"--------------------------------------------------------------------------------------------------------------------------------";
-      ctk=ctk+"\n\t\t\t\t\t"+txtTotal.getText();
+      ctk=ctk+"\nTotal:\t\t\t\t\t"+txtTotal.getText();
+      ctk=ctk+"\nBayar:\t\t\t\t\t"+txtBayar.getText();
+      ctk=ctk+"\n"+"--------------------------------------------------------------------------------------------------------------------------------";
+      ctk=ctk+"\nKembali:\t\t\t\t\t"+txtKembali.getText();
       text.setText(ctk);
 
       String headerField="";
@@ -826,6 +839,15 @@ private void setTombol(boolean t)
         System.out.println("Error: " + e);
         }
     }//GEN-LAST:event_cmdHapusItemMouseClicked
+
+    private void txtIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_txtIdActionPerformed
+
+    private void txtTotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTotActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtTotActionPerformed
 
     /**
      * @param args the command line arguments

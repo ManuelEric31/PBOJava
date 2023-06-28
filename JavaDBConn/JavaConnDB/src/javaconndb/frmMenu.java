@@ -4,6 +4,13 @@
  */
 package javaconndb;
 
+import net.sf.jasperreports.engine.JasperCompileManager;
+import net.sf.jasperreports.engine.JasperFillManager;
+import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.engine.JasperReport;
+import net.sf.jasperreports.view.JasperViewer;
+import java.sql.*;
+
 /**
  *
  * @author manue
@@ -13,8 +20,12 @@ public class frmMenu extends javax.swing.JFrame {
     /**
      * Creates new form frmTransaksi
      */
+    Connection Con;
     private String role;
-    public frmMenu () {}
+    public frmMenu () {
+        initComponents();
+    }
+    
     public frmMenu(String role) {
         initComponents();
         this.role = role;
@@ -52,7 +63,7 @@ public class frmMenu extends javax.swing.JFrame {
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
         mnTransaksi = new javax.swing.JMenu();
         mnLaporan = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        mnLapBarang = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         mnUtility = new javax.swing.JMenu();
@@ -98,13 +109,13 @@ public class frmMenu extends javax.swing.JFrame {
 
         mnLaporan.setText("Laporan");
 
-        jMenuItem1.setText("Data Barang");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        mnLapBarang.setText("Data Barang");
+        mnLapBarang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                mnLapBarangActionPerformed(evt);
             }
         });
-        mnLaporan.add(jMenuItem1);
+        mnLaporan.add(mnLapBarang);
 
         jMenuItem2.setText("Data Konsumen");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
@@ -163,9 +174,23 @@ public class frmMenu extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void mnLapBarangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnLapBarangActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+        try{
+//            Class.forName("com.mysql.jdbc.Driver");
+//            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/penjualan","root","");
+            JavaConnDB kon = new JavaConnDB("localhost","root","","pbotesting");
+            Con = kon.getConnection();String reportPath = "Cherry_Landscape.jrxml";
+            JasperReport jr = JasperCompileManager.compileReport(reportPath);
+            JasperPrint jp = JasperFillManager.fillReport(jr,null, Con);
+            JasperViewer.viewReport(jp);
+            Con.close();
+        }
+        catch(Exception ex)
+        {
+            ex.printStackTrace();
+        }
+    }//GEN-LAST:event_mnLapBarangActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
@@ -213,13 +238,13 @@ public class frmMenu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JMenuItem mnBarang;
     private javax.swing.JMenuItem mnKonsumen;
+    private javax.swing.JMenuItem mnLapBarang;
     private javax.swing.JMenu mnLaporan;
     private javax.swing.JMenu mnMaster;
     private javax.swing.JMenu mnTransaksi;

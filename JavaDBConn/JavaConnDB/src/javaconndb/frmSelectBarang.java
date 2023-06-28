@@ -151,7 +151,7 @@ public class frmSelectBarang extends javax.swing.JFrame {
         fAB.idBrg = tblBrg.getValueAt(tabelBarang, 0).toString();
         fAB.namaBrg = tblBrg.getValueAt(tabelBarang, 1).toString();
         fAB.hargaBrg = tblBrg.getValueAt(tabelBarang, 3).toString();
-//        fAB.itemTerpilih();
+        fAB.itemTerpilih();
         this.dispose();
 
     }//GEN-LAST:event_tblBrgMouseClicked
